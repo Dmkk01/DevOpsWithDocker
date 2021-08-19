@@ -1,0 +1,13 @@
+C:\Users\User>docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   5 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   5 months ago   15.7MB
+
+C:\Users\User>docker exec -it distracted_feistel sh
+/usr/src/app # tail -f ./text.log
+2021-08-19 12:37:48 +0000 UTC
+2021-08-19 12:37:50 +0000 UTC
+2021-08-19 12:37:52 +0000 UTC
+2021-08-19 12:37:54 +0000 UTC
+2021-08-19 12:37:56 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
