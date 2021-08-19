@@ -1,0 +1,5 @@
+C:\Users\User>docker run -it devopsdockeruh/pull_exercise
+  --- Download ---
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"
