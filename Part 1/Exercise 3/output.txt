@@ -1,0 +1,8 @@
+C:\Users\User>docker run -it -d --name looper devopsdockeruh/simple-web-service:ubuntu
+929e347131253e6c275651aa28cdeb6debc76bdc64625a48587af6620c979434
+
+C:\Users\User>docker exec -it looper bash
+root@929e34713125:/usr/src/app# tail -f ./text.log
+2021-08-19 11:58:20 +0000 UTC
+2021-08-19 11:58:22 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
